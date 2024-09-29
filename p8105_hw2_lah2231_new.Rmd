@@ -1,0 +1,67 @@
+---
+title: "p8105_hw2_lah2231_new.Rmd"
+output: github_document
+date: "2024-09-29"
+---
+
+```{r}
+library(readr)
+#install.packages("dplyr")
+library(dplyr)
+#install.packages("tidyr")
+library(tidyr)
+
+
+data <- read_csv("data/NYC_Transit_Subway_Entrance_And_Exit_Data.csv")
+
+#View(data)
+
+data_cleaned <- select(data, "Line", "Station Name", "Station Latitude", "Station Longitude", "Route1", "Route2", "Route3", "Route4", "Route5", "Route6", "Route7", "Route8", "Route9", "Route10", "Route11", "Entry", "Vending", "Entrance Type", "ADA")
+
+#head(data_cleane
+
+data_cleaned2 <- mutate(data_cleaned, Entry = ifelse(Entry == "YES", TRUE, FALSE))
+
+head(data_cleaned2)
+
+dim(data_cleaned2)
+
+# It is a dataset about the New York Metro with information about the different stations, lines, routes, where the stations are located and what the different stations provide. Rows x columns is 1868 x 19.
+
+distinct_stations <- distinct(data_cleaned2, `Station Name`, Line)
+number_distinct_stations <- nrow(distinct_stations)
+print(number_distinct_stations)
+
+#There are 465 distinct stations
+
+ADA_stations <- filter(data_cleaned2, ADA == TRUE)
+#print(ADA_stations)
+# There are 468 stations ADA compliant
+
+data_cleaned3 <- mutate(data_cleaned2, Vending = ifelse(Vending == "YES", TRUE, FALSE))
+No_vending <- filter(data_cleaned3, Vending == FALSE)
+proportion_entry_no_vending <- mean(No_vending$Entry)
+print(proportion_entry_no_vending)
+# 30% of the stations have ADA and no vening
+
+
+#Making route number and name distinct columns added
+data_cleaned3 <- mutate(data_cleaned3, across(starts_with("Route"), as.character))
+
+data_longer <- pivot_longer(data_cleaned3, 
+                          cols = starts_with("Route"), 
+                          names_to = "Route_Number", 
+                          values_to = "Route_Name", 
+                          values_drop_na = TRUE)
+
+#stations that serve the A train
+a_train_stations <- filter(data_longer, Route_Name == "A")
+n_a_train_stations <- nrow(distinct(a_train_stations, `Station Name`, Line))
+print(n_a_train_stations)
+
+#a train stations that ara ADA compliant
+ada_a_train_stations <- filter(a_train_stations, ADA == TRUE)
+n_ada_a_train_stations <- nrow(distinct(ada_a_train_stations, `Station Name`, Line))
+print(n_ada_a_train_stations)
+```
+

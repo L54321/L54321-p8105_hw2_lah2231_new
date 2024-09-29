@@ -59,7 +59,7 @@ a_train_stations <- filter(data_longer, Route_Name == "A")
 n_a_train_stations <- nrow(distinct(a_train_stations, `Station Name`, Line))
 print(n_a_train_stations)
 
-#a train stations that ara ADA compliant
+#a train stations that ara ADA compliat
 ada_a_train_stations <- filter(a_train_stations, ADA == TRUE)
 n_ada_a_train_stations <- nrow(distinct(ada_a_train_stations, `Station Name`, Line))
 print(n_ada_a_train_stations)

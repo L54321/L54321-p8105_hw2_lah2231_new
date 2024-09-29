@@ -65,3 +65,20 @@ n_ada_a_train_stations <- nrow(distinct(ada_a_train_stations, `Station Name`, Li
 print(n_ada_a_train_stations)
 ```
 
+Problem 2 Mr. Trashwheel
+```{r}
+install.packages("readxl")
+library(readxl)
+
+trash_data <- read_excel("data/202309 Trash Wheel Collection Data.xlsx", skip = 2) |> slice(1:586)
+
+
+
+```
+
+
+
+
+
+
+

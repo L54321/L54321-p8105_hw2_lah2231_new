@@ -67,12 +67,21 @@ print(n_ada_a_train_stations)
 
 Problem 2 Mr. Trashwheel
 ```{r}
-install.packages("readxl")
+#install.packages("readxl")
 library(readxl)
+#install.packages("dplyr")
+library(dplyr)
 
-trash_data <- read_excel("data/202309 Trash Wheel Collection Data.xlsx", skip = 2) |> slice(1:586)
+
+mr_trash_wheel_data <- read_excel("data/202309 Trash Wheel Collection Data.xlsx", skip = 1) |> slice(1:586)
+
+head(mr_trash_wheel_data)
 
 
+mr_trash_wheel_data1 <- mr_trash_wheel_data |>
+  mutate(`Sports Balls` = as.integer(round(`Sports Balls`)))
+
+head(mr_trash_wheel_data1)
 
 ```
 

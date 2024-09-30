@@ -142,31 +142,30 @@ head(viewers)
 
 #looking for unmatched bakers that are in bakes but not in bakers
 unmatched_bakers <- anti_join(bakes, bakers, by = c("Baker" = "Baker Name"))
-print(unmatched_bakers)
+nrow(unmatched_bakers)
 
 #looking for unmatched bakers that are in bakes but not in results
-unmatched_bakers_results <- anti_join(bakes, results, by = c("Baker" == "baker"))
-unmatched_bakes_results
+unmatched_bakers_results <- anti_join(bakes, results, by = c("Baker" = "baker"))
+nrow(unmatched_bakers_results)
 ```
 
 ```{r}
 
-# Clean results data
-results_clean <- read_csv("results.csv", skip = 2) %>%
-  rename(Series = `...1`, Episode = `...2`, Baker = `...3`, Technical_Rank = `...4`, Result = `...5`)
+# First merging "Baker Name" column from "bakers" dataset on "baker" in "bakes" dataset which only has first names and "Series"
+bakers <- bakers |>
+  mutate(First_Name = sub(" .*", "", `Baker Name`))
 
-# Merge bakers and bakes data
-bakes_bakers <- merge(bakes, bakers, by.x = c("Series", "Baker"), by.y = c("Series", "Baker Name"))
+bakes_bakers <- bakes %>%
+  left_join(bakers, by = c("Baker" = "First_Name", "Series" = "Series"))
 
-# Merge the combined data with results
-combined_data <- merge(bakes_bakers, results_clean, by = c("Series", "Episode", "Baker"))
+View(bakes_bakers)
 
-# Organize columns
-combined_data <- combined_data %>%
-  select(Series, Episode, Baker, `Baker Age`, `Baker Occupation`, `Hometown`, `Signature Bake`, `Show Stopper`, Technical_Rank, Result)
 
-# Export final dataset
-write_csv(combined_data, "combined_bakeoff_data.csv")
+#Second merge of series in results with Series in bakes_bakers, episode in results with Episode in bakes_bakers, baker in results with Baker in bakes_bakers
+final_dataset <- bakes_bakers %>%
+  left_join(results, by = c("Series" = "series", "Episode" = "episode", "Baker" = "baker"))
+
+View(final_dataset)
 ```
 
 

@@ -169,3 +169,15 @@ View(final_dataset)
 ```
 
 
+```{r}
+#Reorgnaizing so important columns come first
+
+final_dataset <- final_dataset %>%
+  select(1:6, technical, result, everything())
+
+head(final_dataset)
+
+#Exporting file
+write_csv(final_dataset, "data/final_dataset.csv")
+```
+

@@ -126,10 +126,47 @@ gwynnda_cigarettes_june22 <- combined_trash_data |>
 
 This new combined dataset includes information about the three robots Mr. Trash Wheel, Professor Trash Wheel and Gwynnda Trash Wheel. It has `r num_observations`. The columns have information about each robot's `r column_names `. Key variables are for example: `r column_names[5] `, `r column_names[6] ` and `r column_names[12] `. The weight of trash collected by Prof. trash Wheel is `r prof_trash_wheel_total_weight$total_weight`. In June 2022, Gwynnda Trash Wheel collected `r gwynnda_cigarettes_june22$total_cigarrette_butts` cigarette butts.
 
+
 Problem 3
 ```{r}
 
+bakers <- read_csv("data/bakers.csv")
+bakes <- read_csv("data/bakes.csv")
+results <- read_csv("data/results.csv", skip = 2)
+viewers <- read_csv("data/viewers.csv")
+
+head(bakers)
+head(results)
+head(bakes)
+head(viewers)
+
+#looking for unmatched bakers that are in bakes but not in bakers
+unmatched_bakers <- anti_join(bakes, bakers, by = c("Baker" = "Baker Name"))
+print(unmatched_bakers)
+
+#looking for unmatched bakers that are in bakes but not in results
+unmatched_bakers_results <- anti_join(bakes, results, by = c("Baker" == "baker"))
+unmatched_bakes_results
 ```
 
+```{r}
+
+# Clean results data
+results_clean <- read_csv("results.csv", skip = 2) %>%
+  rename(Series = `...1`, Episode = `...2`, Baker = `...3`, Technical_Rank = `...4`, Result = `...5`)
+
+# Merge bakers and bakes data
+bakes_bakers <- merge(bakes, bakers, by.x = c("Series", "Baker"), by.y = c("Series", "Baker Name"))
+
+# Merge the combined data with results
+combined_data <- merge(bakes_bakers, results_clean, by = c("Series", "Episode", "Baker"))
+
+# Organize columns
+combined_data <- combined_data %>%
+  select(Series, Episode, Baker, `Baker Age`, `Baker Occupation`, `Hometown`, `Signature Bake`, `Show Stopper`, Technical_Rank, Result)
+
+# Export final dataset
+write_csv(combined_data, "combined_bakeoff_data.csv")
+```
 
 

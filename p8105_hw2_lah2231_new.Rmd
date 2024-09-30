@@ -72,16 +72,40 @@ library(readxl)
 #install.packages("dplyr")
 library(dplyr)
 
+#Mr. Trash Wheel
+mr_trash_wheel_data <- read_excel("data/202309 Trash Wheel Collection Data.xlsx", sheet = "Mr. Trash Wheel", skip = 1) |> slice(1:586)
 
-mr_trash_wheel_data <- read_excel("data/202309 Trash Wheel Collection Data.xlsx", skip = 1) |> slice(1:586)
+head(mr_trash_wheel_data)
+
+mr_trash_wheel_data <- mr_trash_wheel_data |>
+  mutate(`Sports Balls` = as.integer(round(`Sports Balls`)))
 
 head(mr_trash_wheel_data)
 
 
-mr_trash_wheel_data1 <- mr_trash_wheel_data |>
-  mutate(`Sports Balls` = as.integer(round(`Sports Balls`)))
+#Professor Trash Wheel
+prof_trash_wheel_data <- read_excel("data/202309 Trash Wheel Collection Data.xlsx", sheet = "Professor Trash Wheel", skip = 1) |> slice(1:108)
 
-head(mr_trash_wheel_data1)
+
+#Gwynnda Trash Wheel
+gwynnda_trash_wheel_data <- read_excel("data/202309 Trash Wheel Collection Data.xlsx", sheet = "Gwynnda Trash Wheel", skip = 1) |> slice(1:557)
+
+# Converting Year column to character in all datasets
+mr_trash_wheel_data <- mr_trash_wheel_data |> mutate(Year = as.character(Year))
+prof_trash_wheel_data <- prof_trash_wheel_data |> mutate(Year = as.character(Year))
+gwynnda_trash_wheel_data <- gwynnda_trash_wheel_data |> mutate(Year = as.character(Year))
+
+#Which Trash Wheel Identifier Column added to each
+mr_trash_wheel_data <- mr_trash_wheel_data |> mutate(Trash_Wheel = "Mr. Trash Wheel")
+prof_trash_wheel_data <- prof_trash_wheel_data |> mutate(Trash_Wheel = "Professor Trash Wheel")
+gwynnda_trash_wheel_data <- gwynnda_trash_wheel_data |> mutate(Trash_Wheel = "Gwynnda Trash Wheel")
+
+#Three datasets to one with addiitonal identifier column 
+combined_trash_data <- bind_rows(mr_trash_wheel_data, prof_trash_wheel_data, gwynnda_trash_wheel_data)
+
+# Check the combined data
+head(combined_trash_data)
+
 
 ```
 

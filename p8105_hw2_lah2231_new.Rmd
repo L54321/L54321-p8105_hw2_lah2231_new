@@ -180,4 +180,11 @@ head(final_dataset)
 #Exporting file
 write_csv(final_dataset, "data/final_dataset.csv")
 ```
+Process description: After loading I inspected the datasets, I deleted unnecessary rows and checked for missing or unmatched entries using anti_join. To merge the datasets, I first extracted the first names from Baker Name in the bakers dataset to match the Baker column in the bakes dataset. I then merged bakes_bakers with results by matching on Series, Episode, and Baker. After reordering key variables which I found to be more impirtant than additional facts about the bakers. I exported the final, clean dataset. This dataset includes all relevant information on bakers, their bakes and their performance across all episodes.
+
+
+
+
+
+
 

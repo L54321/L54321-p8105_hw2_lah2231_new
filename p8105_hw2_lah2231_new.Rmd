@@ -4,11 +4,12 @@ output: github_document
 date: "2024-09-29"
 ---
 
+## Problem 1
 ```{r}
 library(readr)
 #install.packages("dplyr")
 library(dplyr)
-#install.packages("tidyr")
+#install.packages("tidyr)
 library(tidyr)
 
 
@@ -65,7 +66,7 @@ n_ada_a_train_stations <- nrow(distinct(ada_a_train_stations, `Station Name`, Li
 print(n_ada_a_train_stations)
 ```
 
-Problem 2 Mr. Trashwheel
+## Problem 2 Mr. Trash Wheel
 ```{r}
 #install.packages("readxl")
 library(readxl)
@@ -73,10 +74,11 @@ library(readxl)
 library(dplyr)
 
 #Mr. Trash Wheel
-mr_trash_wheel_data <- read_excel("data/202309 Trash Wheel Collection Data.xlsx", sheet = "Mr. Trash Wheel", skip = 1) |> slice(1:586)
+mr_trash_wheel_data <- read_excel("data/202409 Trash Wheel Collection Data.xlsx", sheet = "Mr. Trash Wheel", skip = 1) |> slice(1:(n() - 2))
 
 head(mr_trash_wheel_data)
 
+# Rounding sports balls
 mr_trash_wheel_data <- mr_trash_wheel_data |>
   mutate(`Sports Balls` = as.integer(round(`Sports Balls`)))
 
@@ -84,11 +86,11 @@ head(mr_trash_wheel_data)
 
 
 #Professor Trash Wheel
-prof_trash_wheel_data <- read_excel("data/202309 Trash Wheel Collection Data.xlsx", sheet = "Professor Trash Wheel", skip = 1) |> slice(1:108)
+prof_trash_wheel_data <- read_excel("data/202309 Trash Wheel Collection Data.xlsx", sheet = "Professor Trash Wheel", skip = 1) |> slice(1:(n() - 3))
 
 
 #Gwynnda Trash Wheel
-gwynnda_trash_wheel_data <- read_excel("data/202309 Trash Wheel Collection Data.xlsx", sheet = "Gwynnda Trash Wheel", skip = 1) |> slice(1:557)
+gwynnda_trash_wheel_data <- read_excel("data/202309 Trash Wheel Collection Data.xlsx", sheet = "Gwynnda Trash Wheel", skip = 1) |> slice(1:(n() - 1))
 
 
 # Converting Year column to character in all datasets
@@ -105,29 +107,36 @@ gwynnda_trash_wheel_data <- gwynnda_trash_wheel_data |> mutate(Trash_Wheel = "Gw
 combined_trash_data <- bind_rows(mr_trash_wheel_data, prof_trash_wheel_data, gwynnda_trash_wheel_data)
 
 # Check the combined data
-head(combined_trash_data)
+#View(combined_trash_data)
+str(combined_trash_data)
 ```
+
 ```{r}
 #Dataset exploration for paragraph
 
 num_observations <- nrow(combined_trash_data)
 column_names <- colnames(combined_trash_data)
+print(num_observations)
+print(column_names)
 
 #Professor Trash Wheel totl weight
 prof_trash_wheel_total_weight <- combined_trash_data |>
   filter(Trash_Wheel == "Professor Trash Wheel") |>
   summarize(total_weight = sum(`Weight (tons)`, na.rm = TRUE))
+print(prof_trash_wheel_total_weight)
+
 
 #cigarette butts collected by Gwynnda trash wheel June 2022
 gwynnda_cigarettes_june22 <- combined_trash_data |>
   filter(Trash_Wheel == "Gwynnda Trash Wheel", format(Date, "%Y-%m") == "2022-06") |>
   summarize(total_cigarrette_butts = sum(`Cigarette Butts`, na.rm = TRUE))
+print(gwynnda_cigarettes_june22)
 ```
 
-This new combined dataset includes information about the three robots Mr. Trash Wheel, Professor Trash Wheel and Gwynnda Trash Wheel. It has `r num_observations`. The columns have information about each robot's `r column_names `. Key variables are for example: `r column_names[5] `, `r column_names[6] ` and `r column_names[12] `. The weight of trash collected by Prof. trash Wheel is `r prof_trash_wheel_total_weight$total_weight`. In June 2022, Gwynnda Trash Wheel collected `r gwynnda_cigarettes_june22$total_cigarrette_butts` cigarette butts.
+This new combined dataset includes information about the three robots Mr. Trash Wheel, Professor Trash Wheel and Gwynnda Trash Wheel. It has `r num_observations`observations/rows. The columns have information about each robot's following characteristic: `r column_names `. Key variables regarding the trash collected are for example: `r column_names[5] `, `r column_names[6] ` and also information regarding which kind of trash was collected such as `r column_names[11] ` or `r column_names[12] `. The weight of trash collected by Prof. trash Wheel is: `r prof_trash_wheel_total_weight$total_weight`. In June 2022, Gwynnda Trash Wheel collected `r gwynnda_cigarettes_june22$total_cigarrette_butts` cigarette butts.
 
 
-Problem 3 Great British Bake Off
+## Problem 3 Great British Bake Off
 ```{r}
 
 bakers <- read_csv("data/bakers.csv")
@@ -212,7 +221,7 @@ avg_viewership_season_5 <- mean(viewers$`Series 5`, na.rm = TRUE)
 print(avg_viewership_season_5)
 ```
 
-
+Regarding viewership the 
 
 
 

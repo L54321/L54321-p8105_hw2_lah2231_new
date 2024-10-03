@@ -138,7 +138,6 @@ This new combined dataset includes information about the three robots Mr. Trash 
 
 ## Problem 3 Great British Bake Off
 ```{r}
-
 bakers <- read_csv("data/bakers.csv")
 bakes <- read_csv("data/bakes.csv")
 results <- read_csv("data/results.csv", skip = 2)
@@ -157,6 +156,8 @@ nrow(unmatched_bakers)
 unmatched_bakers_results <- anti_join(bakes, results, by = c("Baker" = "baker"))
 nrow(unmatched_bakers_results)
 ```
+The number of unmatched bakers in bakes but not in bakers is `r nrow(unmatched_bakers)`. The number of unmatched bakers in bakes but not in results is `r nrow(unmatched_bakers_results)`.
+
 
 ```{r}
 # First merging "Baker Name" column from "bakers" dataset on "baker" in "bakes" dataset which only has first names and "Series"
@@ -221,7 +222,6 @@ avg_viewership_season_5 <- mean(viewers$`Series 5`, na.rm = TRUE)
 print(avg_viewership_season_5)
 ```
 
-Regarding viewership the 
-
+The viewers dataset contains `r nrow(viewers)` rows. The number of missing values per column is `r na_count`. Because there are very few missing values I did not remove any rows or columns. The average viewership for Season 1 is `r avg_viewership_season_1`, and for Season 5 it is `r avg_viewership_season_5`.
 
 

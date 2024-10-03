@@ -50,7 +50,6 @@ Cranberry Bagels",Ruth Clemens,2,IN,31,Retail manager/Housewife,"Poynton, Cheshi
 2,1,Ian,Apple and Cinnamon Cupcakes,UNKNOWN,Ian Vallance,10,IN,40,Fundraiser for English Heritage,"Dunstable, Bedfordshire"
 2,1,Janet,Raspberry and Cream Cupcakes,Chocolate Marble Cakewith Dark and White Chocolate Truffles,Janet Basu,8,IN,63,Teacher of Modern Languages,"Formby, Liverpool"
 2,1,Jason,Lemon Meringue CupcakesApple and Cinnamon Cupcakes,UNKNOWN,Jason White,6,IN,19,Civil Engineering Student,Croydon
-2,1,"""Jo""",Chocolate Orange CupcakesOrange and Cardamom Cupcakes,Chocolate and Strawberry Cake,NA,NA,NA,NA,NA,NA
 2,1,Keith,Earl Grey Cupcakes,Chocolate and Sour Cream Cake,Keith Batsford,12,OUT,31,House husband,"Arlesey, Bedfordshire"
 2,1,Mary-Anne,Banoffee Cupcakes,Chocolate and Raspberry Opera cake,Mary-Anne Boermans,4,IN,45,Housewife,"Kidderminster, Worcestershire"
 2,1,Robert,Blackberry and Vanilla Cupcakeswith Liquorice Frosting,Genoise Layered Mousse Cakewith Chocolate Ganache,Robert Billington,3,IN,25,Photographer,London
@@ -62,7 +61,6 @@ Cranberry Bagels",Ruth Clemens,2,IN,31,Retail manager/Housewife,"Poynton, Cheshi
 2,2,Ian,"Stilton, Spinach and New Potato Quichewith Paprika and Walnut Pastry",UNKNOWN,Ian Vallance,2,IN,40,Fundraiser for English Heritage,"Dunstable, Bedfordshire"
 2,2,Janet,Quiche Printanière,Red Fruit TartsChocolate and Cherry Tarts,Janet Basu,8,IN,63,Teacher of Modern Languages,"Formby, Liverpool"
 2,2,Jason,Salmon and Pak Choi Quiche,Mint Chocolate Tarts Blueberry Bakewell Tarts,Jason White,3,STAR BAKER,19,Civil Engineering Student,Croydon
-2,2,"""Jo""","Caramelised Onion, Gruyere and Thyme Quiche",Raspberry and Mascarpone Tarts with Lemon and Almond PastryHoney and Almond Tarts with Sweetcrust,NA,NA,NA,NA,NA,NA
 2,2,Mary-Anne,"Roasted Cauliflower, Cheese andCaramelised Onion Quiche",Butterscotch Brulée Tarts in Pecan PastryApple Rose Tarts,Mary-Anne Boermans,9,IN,45,Housewife,"Kidderminster, Worcestershire"
 2,2,Robert,Smoked Bacon and Kale Quiche,"Chocolate, Fennel and Ginger TartAlmond, Creme Patissiere and Poached Pear Tart",Robert Billington,5,IN,25,Photographer,London
 2,2,Simon,Smoked Haddock and Watercress Quiche,"Passion Fruit and Ricotta TartsSalted Chocolate, Stem Ginger and Mascarpone Cream Tarts",Simon Blackwell,11,OUT,31,Rugby Coach,Norfolk
@@ -73,7 +71,6 @@ Cranberry Bagels",Ruth Clemens,2,IN,31,Retail manager/Housewife,"Poynton, Cheshi
 2,3,Ian,"Courgette, Caerphilly Cheese and Thyme Loaf",Walnut and Raisin RollsCracked Wheat Logs,Ian Vallance,10,OUT,40,Fundraiser for English Heritage,"Dunstable, Bedfordshire"
 2,3,Janet,Zupfe Loaf with Gruyère Cheese,Apple and Walnut Granary Rolls Red Onion Cottage Rolls,Janet Basu,8,IN,63,Teacher of Modern Languages,"Formby, Liverpool"
 2,3,Jason,Cheese and Onion Tear and Share Loaf,UNKNOWN,Jason White,7,IN,19,Civil Engineering Student,Croydon
-2,3,"""Jo""","Stromboli flavored with Mozzarella, Ham, and Picante Pepper",Unknown,NA,NA,NA,NA,NA,NA
 2,3,Mary-Anne,Ploughman's Loaf,Herb and Walnut BreadsChocolate and Chilli Buns,Mary-Anne Boermans,5,IN,45,Housewife,"Kidderminster, Worcestershire"
 2,3,Robert,Rye and Coriander Seed Loaf,Blueberry Brioche RollsLemon and Poppy Seed Rolls,Robert Billington,4,IN,25,Photographer,London
 2,3,Urvashi,Salt and Peppercorn Loaf,Chilli and Halloumi RollsLemon and Coriander Mini Loaves,Urvashi Roe,9,OUT,40,Head of Marketing,"Enfield, London"
@@ -87,28 +84,23 @@ Blackcurrant Macarons
 Almond Macarons",Janet Basu,4,IN,63,Teacher of Modern Languages,"Formby, Liverpool"
 2,4,Jason,Lebkuchen,"Mocktail Macarons
 (Mojito, Cranberry Cooler, and Pina Colada)",Jason White,1,STAR BAKER,19,Civil Engineering Student,Croydon
-2,4,"""Jo""",Lavender Biscuits,Blueberry MacaronsCoconut MacaronsStrawberry Macarons,NA,NA,NA,NA,NA,NA
 2,4,Mary-Anne,Melting Moments,Blackcurrant and Mint MacaronsGooseberry and Elderflower MacaronsHazelnut Macarons,Mary-Anne Boermans,2,IN,45,Housewife,"Kidderminster, Worcestershire"
 2,4,Robert,Chocolate and Ginger Oat Biscuits,Strawberry and Lime MacaronsLemon MacaronsChocolate and Cardamom Macarons,Robert Billington,7,IN,25,Photographer,London
 2,4,Yasmin,Chocolate Chip and Pistachio Biscotti,Chocolate and Lime MacaronsCoffee and Walnut MacaronsPineapple and Coconut Macarons,Yasmin Limbert,6,IN,43,Childminder,"West Kirby, The Wirral"
 2,5,Holly,"Stilton, Potato and Caramelised Onion Pie",Lime Meringue Pie,Holly Bell,4,IN,31,Advertising executive,Leicester
 2,5,Janet,Chicken and Chestnut Pie,Rhubarb Meringue Pie,Janet Basu,1,STAR BAKER,63,Teacher of Modern Languages,"Formby, Liverpool"
 2,5,Jason,Brown Down Chicken Pie,Plum Meringue Pie,Jason White,7,OUT,19,Civil Engineering Student,Croydon
-2,5,"""Jo""",Salmon and Asparagus Pie,Apple and Raspberry Meringue Pie,NA,NA,NA,NA,NA,NA
 2,5,Mary-Anne,Chicken and Bacon Pie,Midnight Meringue,Mary-Anne Boermans,2,IN,45,Housewife,"Kidderminster, Worcestershire"
 2,5,Robert,Chicken and Mushroom Pie,Rhubarb and Custard Meringue Pie,Robert Billington,3,OUT,25,Photographer,London
 2,5,Yasmin,Family Fish Pie,Peach and Raspberry Meringue Pie,Yasmin Limbert,5,IN,43,Childminder,"West Kirby, The Wirral"
 2,6,Holly,Father Christmas' Baked Cheesecake,Hansel and Gretel's Croquembouche,Holly Bell,3,IN,31,Advertising executive,Leicester
 2,6,Janet,Rhubarb and Ginger Baked Cheesecake,Orange and Nougatine Croquembouche,Janet Basu,5,IN,63,Teacher of Modern Languages,"Formby, Liverpool"
-2,6,"""Jo""",Rum and Raisin Baked Cheesecake,Limoncello and White Chocolate Croquembouche,NA,NA,NA,NA,NA,NA
 2,6,Mary-Anne,Tutti Fruitti Curd Baked Cheesecake,Orange and Praline Croquembouche with Cardamom Caramel,Mary-Anne Boermans,4,IN,45,Housewife,"Kidderminster, Worcestershire"
 2,6,Yasmin,Baked Amaretto Cheesecake,Rose Croquembouche,Yasmin Limbert,2,OUT,43,Childminder,"West Kirby, The Wirral"
 2,7,Holly,"White Chocolate, Hazelnut and Raspberry Genoise Mousse Cake","Apricot, Macadamia and White Chocolate PinwheelsAlmond CroissantsApple, Raisin and Cinnamon Plaits",Holly Bell,1,IN,31,Advertising executive,Leicester
 2,7,Janet,Chocolate Amaretto Mousse Cake,Pain Aux RaisinPlain CroissantPain Au Chocolat,Janet Basu,4,OUT,63,Teacher of Modern Languages,"Formby, Liverpool"
-2,7,"""Jo""",Raspberry & Strawberry Mousse Cake,Pain Aux RaisinChocolate TwistsBanana and Raisin Pastries,NA,NA,NA,NA,NA,NA
 2,7,Mary-Anne,Chocolate and Orange Mousse Cake,Raspberry Rose DanishesPraline SpiralsAlsatian Plaited Danishes,Mary-Anne Boermans,2,IN,45,Housewife,"Kidderminster, Worcestershire"
 2,8,Holly,Banoffee Inspired Mille Feuille,Strawberry and Cream Meringue NestGooseberry and Elderflower 'Bakewell' TartsNeapolitan Ice-Cream Sandwich,Holly Bell,2,Runner-up,31,Advertising executive,Leicester
-2,8,"""Jo""",Raspberry and Blueberry Mille Feuille,"Mini Victoria SandwichesRaspberry, White Chocolate and Pistachio Mini MeringuesMini Banoffee Pie with Banana Mousse",NA,NA,NA,NA,NA,NA
 2,8,Mary-Anne,Lemon and Ginger Mille Feuille,Fruit Tarts with Elderflower CustardStrawberry and Rhubarb CheesecakesBlack Fruit Meringue with Everlasting Syllabub,Mary-Anne Boermans,3,Runner-up,45,Housewife,"Kidderminster, Worcestershire"
 3,1,Brendan,"Plum, Sour Cherry & Walnut",UNKNOWN,Brendan Lynch,10,IN,63,Recruitment consultant,Sutton Coldfield
 3,1,Cathryn,"Apple, Hazelnut and Calvados",Hidden Cupcake Cake,Cathryn Dresser,5,IN,27,Shop assistant,"Pease Pottage, West Sussex"
@@ -577,3 +569,599 @@ Chantenay CarrotsChoux Pastry TomatoesCauliflower Cheese Scones",Great British S
 8,10,Kate,"Roman Spelt, Coconut Kala Chana and Flower Breads","White Chocolate, Yuzu and Lychee Entremet",Kate Lyon,3,Runner-up,29,Health and safety inspector,Merseyside
 8,10,Sophie,"Spelt Boules, Mushroom Ciabatta and Orange Plaited Brioche",'Ode to the Honey Bee' Entremet,Sophie Faldo,2,WINNER,33,Former army officer and trainee stuntwoman,"West Molesey, Surrey"
 8,10,Steven,"Spelt & Rye, Toasted Garlic & Fontina and Sweet Chocolate Breads",'Yin Yang' Entremet,Steven Carter-Bailey,1,Runner-up,34,Marketer,"Watford, Hertfordshire"
+1,2,Lea,NA,NA,NA,NA,NA,NA,NA,NA
+1,2,Mark,NA,NA,NA,NA,NA,NA,NA,NA
+1,3,Annetha,NA,NA,NA,NA,NA,NA,NA,NA
+1,3,Lea,NA,NA,NA,NA,NA,NA,NA,NA
+1,3,Louise,NA,NA,NA,NA,NA,NA,NA,NA
+1,3,Mark,NA,NA,NA,NA,NA,NA,NA,NA
+1,4,Annetha,NA,NA,NA,NA,NA,NA,NA,NA
+1,4,Jonathan,NA,NA,NA,NA,NA,NA,NA,NA
+1,4,Lea,NA,NA,NA,NA,NA,NA,NA,NA
+1,4,Louise,NA,NA,NA,NA,NA,NA,NA,NA
+1,4,Mark,NA,NA,NA,NA,NA,NA,NA,NA
+1,5,Annetha,NA,NA,NA,NA,NA,NA,NA,NA
+1,5,David,NA,NA,NA,NA,NA,NA,NA,NA
+1,5,Jonathan,NA,NA,NA,NA,NA,NA,NA,NA
+1,5,Lea,NA,NA,NA,NA,NA,NA,NA,NA
+1,5,Louise,NA,NA,NA,NA,NA,NA,NA,NA
+1,5,Mark,NA,NA,NA,NA,NA,NA,NA,NA
+1,6,Annetha,NA,NA,NA,NA,NA,NA,NA,NA
+1,6,David,NA,NA,NA,NA,NA,NA,NA,NA
+1,6,Jasminder,NA,NA,NA,NA,NA,NA,NA,NA
+1,6,Jonathan,NA,NA,NA,NA,NA,NA,NA,NA
+1,6,Lea,NA,NA,NA,NA,NA,NA,NA,NA
+1,6,Louise,NA,NA,NA,NA,NA,NA,NA,NA
+1,6,Mark,NA,NA,NA,NA,NA,NA,NA,NA
+2,1,Joanne,NA,NA,NA,11,IN,NA,NA,NA
+2,2,Joanne,NA,NA,NA,10,IN,NA,NA,NA
+2,2,Keith,NA,NA,NA,NA,NA,NA,NA,NA
+2,3,Joanne,NA,NA,NA,1,IN,NA,NA,NA
+2,3,Keith,NA,NA,NA,NA,NA,NA,NA,NA
+2,3,Simon,NA,NA,NA,NA,NA,NA,NA,NA
+2,4,Joanne,NA,NA,NA,8,IN,NA,NA,NA
+2,4,Ian,NA,NA,NA,NA,NA,NA,NA,NA
+2,4,Keith,NA,NA,NA,NA,NA,NA,NA,NA
+2,4,Simon,NA,NA,NA,NA,NA,NA,NA,NA
+2,4,Urvashi,NA,NA,NA,NA,NA,NA,NA,NA
+2,5,Joanne,NA,NA,NA,6,IN,NA,NA,NA
+2,5,Ben,NA,NA,NA,NA,NA,NA,NA,NA
+2,5,Ian,NA,NA,NA,NA,NA,NA,NA,NA
+2,5,Keith,NA,NA,NA,NA,NA,NA,NA,NA
+2,5,Simon,NA,NA,NA,NA,NA,NA,NA,NA
+2,5,Urvashi,NA,NA,NA,NA,NA,NA,NA,NA
+2,6,Joanne,NA,NA,NA,1,STAR BAKER,NA,NA,NA
+2,6,Ben,NA,NA,NA,NA,NA,NA,NA,NA
+2,6,Ian,NA,NA,NA,NA,NA,NA,NA,NA
+2,6,Jason,NA,NA,NA,NA,NA,NA,NA,NA
+2,6,Keith,NA,NA,NA,NA,NA,NA,NA,NA
+2,6,Robert,NA,NA,NA,NA,NA,NA,NA,NA
+2,6,Simon,NA,NA,NA,NA,NA,NA,NA,NA
+2,6,Urvashi,NA,NA,NA,NA,NA,NA,NA,NA
+2,7,Joanne,NA,NA,NA,3,IN,NA,NA,NA
+2,7,Ben,NA,NA,NA,NA,NA,NA,NA,NA
+2,7,Ian,NA,NA,NA,NA,NA,NA,NA,NA
+2,7,Jason,NA,NA,NA,NA,NA,NA,NA,NA
+2,7,Keith,NA,NA,NA,NA,NA,NA,NA,NA
+2,7,Robert,NA,NA,NA,NA,NA,NA,NA,NA
+2,7,Simon,NA,NA,NA,NA,NA,NA,NA,NA
+2,7,Urvashi,NA,NA,NA,NA,NA,NA,NA,NA
+2,7,Yasmin,NA,NA,NA,NA,NA,NA,NA,NA
+2,8,Joanne,NA,NA,NA,1,WINNER,NA,NA,NA
+2,8,Ben,NA,NA,NA,NA,NA,NA,NA,NA
+2,8,Ian,NA,NA,NA,NA,NA,NA,NA,NA
+2,8,Janet,NA,NA,NA,NA,NA,NA,NA,NA
+2,8,Jason,NA,NA,NA,NA,NA,NA,NA,NA
+2,8,Keith,NA,NA,NA,NA,NA,NA,NA,NA
+2,8,Robert,NA,NA,NA,NA,NA,NA,NA,NA
+2,8,Simon,NA,NA,NA,NA,NA,NA,NA,NA
+2,8,Urvashi,NA,NA,NA,NA,NA,NA,NA,NA
+2,8,Yasmin,NA,NA,NA,NA,NA,NA,NA,NA
+3,2,Natasha,NA,NA,NA,NA,NA,NA,NA,NA
+3,3,Natasha,NA,NA,NA,NA,NA,NA,NA,NA
+3,3,Peter,NA,NA,NA,NA,NA,NA,NA,NA
+3,4,Natasha,NA,NA,NA,NA,NA,NA,NA,NA
+3,4,Peter,NA,NA,NA,NA,NA,NA,NA,NA
+3,4,Victoria,NA,NA,NA,NA,NA,NA,NA,NA
+3,5,Natasha,NA,NA,NA,NA,NA,NA,NA,NA
+3,5,Peter,NA,NA,NA,NA,NA,NA,NA,NA
+3,5,Stuart,NA,NA,NA,NA,NA,NA,NA,NA
+3,5,Victoria,NA,NA,NA,NA,NA,NA,NA,NA
+3,6,Manisha,NA,NA,NA,NA,NA,NA,NA,NA
+3,6,Natasha,NA,NA,NA,NA,NA,NA,NA,NA
+3,6,Peter,NA,NA,NA,NA,NA,NA,NA,NA
+3,6,Stuart,NA,NA,NA,NA,NA,NA,NA,NA
+3,6,Victoria,NA,NA,NA,NA,NA,NA,NA,NA
+3,7,Manisha,NA,NA,NA,NA,NA,NA,NA,NA
+3,7,Natasha,NA,NA,NA,NA,NA,NA,NA,NA
+3,7,Peter,NA,NA,NA,NA,NA,NA,NA,NA
+3,7,Stuart,NA,NA,NA,NA,NA,NA,NA,NA
+3,7,Victoria,NA,NA,NA,NA,NA,NA,NA,NA
+3,8,Manisha,NA,NA,NA,NA,NA,NA,NA,NA
+3,8,Natasha,NA,NA,NA,NA,NA,NA,NA,NA
+3,8,Peter,NA,NA,NA,NA,NA,NA,NA,NA
+3,8,Ryan,NA,NA,NA,NA,NA,NA,NA,NA
+3,8,Sarah-Jane,NA,NA,NA,NA,NA,NA,NA,NA
+3,8,Stuart,NA,NA,NA,NA,NA,NA,NA,NA
+3,8,Victoria,NA,NA,NA,NA,NA,NA,NA,NA
+3,9,Cathryn,NA,NA,NA,NA,NA,NA,NA,NA
+3,9,Manisha,NA,NA,NA,NA,NA,NA,NA,NA
+3,9,Natasha,NA,NA,NA,NA,NA,NA,NA,NA
+3,9,Peter,NA,NA,NA,NA,NA,NA,NA,NA
+3,9,Ryan,NA,NA,NA,NA,NA,NA,NA,NA
+3,9,Sarah-Jane,NA,NA,NA,NA,NA,NA,NA,NA
+3,9,Stuart,NA,NA,NA,NA,NA,NA,NA,NA
+3,9,Victoria,NA,NA,NA,NA,NA,NA,NA,NA
+3,10,Cathryn,NA,NA,NA,NA,NA,NA,NA,NA
+3,10,Danny,NA,NA,NA,NA,NA,NA,NA,NA
+3,10,Manisha,NA,NA,NA,NA,NA,NA,NA,NA
+3,10,Natasha,NA,NA,NA,NA,NA,NA,NA,NA
+3,10,Peter,NA,NA,NA,NA,NA,NA,NA,NA
+3,10,Ryan,NA,NA,NA,NA,NA,NA,NA,NA
+3,10,Sarah-Jane,NA,NA,NA,NA,NA,NA,NA,NA
+3,10,Stuart,NA,NA,NA,NA,NA,NA,NA,NA
+3,10,Victoria,NA,NA,NA,NA,NA,NA,NA,NA
+4,2,Toby,NA,NA,NA,NA,NA,NA,NA,NA
+4,3,Lucy,NA,NA,NA,NA,NA,NA,NA,NA
+4,3,Toby,NA,NA,NA,NA,NA,NA,NA,NA
+4,4,Deborah,NA,NA,NA,NA,NA,NA,NA,NA
+4,4,Lucy,NA,NA,NA,NA,NA,NA,NA,NA
+4,4,Mark,NA,NA,NA,NA,NA,NA,NA,NA
+4,4,Toby,NA,NA,NA,NA,NA,NA,NA,NA
+4,5,Ali,NA,NA,NA,NA,NA,NA,NA,NA
+4,5,Deborah,NA,NA,NA,NA,NA,NA,NA,NA
+4,5,Lucy,NA,NA,NA,NA,NA,NA,NA,NA
+4,5,Mark,NA,NA,NA,NA,NA,NA,NA,NA
+4,5,Toby,NA,NA,NA,NA,NA,NA,NA,NA
+4,6,Ali,NA,NA,NA,NA,NA,NA,NA,NA
+4,6,Deborah,NA,NA,NA,NA,NA,NA,NA,NA
+4,6,Lucy,NA,NA,NA,NA,NA,NA,NA,NA
+4,6,Mark,NA,NA,NA,NA,NA,NA,NA,NA
+4,6,Robert,NA,NA,NA,NA,NA,NA,NA,NA
+4,6,Toby,NA,NA,NA,NA,NA,NA,NA,NA
+4,7,Ali,NA,NA,NA,NA,NA,NA,NA,NA
+4,7,Deborah,NA,NA,NA,NA,NA,NA,NA,NA
+4,7,Howard,NA,NA,NA,NA,NA,NA,NA,NA
+4,7,Lucy,NA,NA,NA,NA,NA,NA,NA,NA
+4,7,Mark,NA,NA,NA,NA,NA,NA,NA,NA
+4,7,Robert,NA,NA,NA,NA,NA,NA,NA,NA
+4,7,Toby,NA,NA,NA,NA,NA,NA,NA,NA
+4,8,Ali,NA,NA,NA,NA,NA,NA,NA,NA
+4,8,Deborah,NA,NA,NA,NA,NA,NA,NA,NA
+4,8,Glenn,NA,NA,NA,NA,NA,NA,NA,NA
+4,8,Howard,NA,NA,NA,NA,NA,NA,NA,NA
+4,8,Lucy,NA,NA,NA,NA,NA,NA,NA,NA
+4,8,Mark,NA,NA,NA,NA,NA,NA,NA,NA
+4,8,Robert,NA,NA,NA,NA,NA,NA,NA,NA
+4,8,Toby,NA,NA,NA,NA,NA,NA,NA,NA
+4,9,Ali,NA,NA,NA,NA,NA,NA,NA,NA
+4,9,Christine,NA,NA,NA,NA,NA,NA,NA,NA
+4,9,Deborah,NA,NA,NA,NA,NA,NA,NA,NA
+4,9,Glenn,NA,NA,NA,NA,NA,NA,NA,NA
+4,9,Howard,NA,NA,NA,NA,NA,NA,NA,NA
+4,9,Lucy,NA,NA,NA,NA,NA,NA,NA,NA
+4,9,Mark,NA,NA,NA,NA,NA,NA,NA,NA
+4,9,Robert,NA,NA,NA,NA,NA,NA,NA,NA
+4,9,Toby,NA,NA,NA,NA,NA,NA,NA,NA
+4,10,Ali,NA,NA,NA,NA,NA,NA,NA,NA
+4,10,Beca,NA,NA,NA,NA,NA,NA,NA,NA
+4,10,Christine,NA,NA,NA,NA,NA,NA,NA,NA
+4,10,Deborah,NA,NA,NA,NA,NA,NA,NA,NA
+4,10,Glenn,NA,NA,NA,NA,NA,NA,NA,NA
+4,10,Howard,NA,NA,NA,NA,NA,NA,NA,NA
+4,10,Lucy,NA,NA,NA,NA,NA,NA,NA,NA
+4,10,Mark,NA,NA,NA,NA,NA,NA,NA,NA
+4,10,Robert,NA,NA,NA,NA,NA,NA,NA,NA
+4,10,Toby,NA,NA,NA,NA,NA,NA,NA,NA
+5,2,Claire,NA,NA,NA,NA,NA,NA,NA,NA
+5,3,Claire,NA,NA,NA,NA,NA,NA,NA,NA
+5,3,Enwezor,NA,NA,NA,NA,NA,NA,NA,NA
+5,4,Claire,NA,NA,NA,NA,NA,NA,NA,NA
+5,4,Enwezor,NA,NA,NA,NA,NA,NA,NA,NA
+5,4,Jordan,NA,NA,NA,NA,NA,NA,NA,NA
+5,5,Diana,NA,NA,NA,NA,WD,NA,NA,NA
+5,5,Claire,NA,NA,NA,NA,NA,NA,NA,NA
+5,5,Enwezor,NA,NA,NA,NA,NA,NA,NA,NA
+5,5,Iain,NA,NA,NA,NA,NA,NA,NA,NA
+5,5,Jordan,NA,NA,NA,NA,NA,NA,NA,NA
+5,6,Diana,NA,NA,NA,NA,IN,NA,NA,NA
+5,6,Claire,NA,NA,NA,NA,NA,NA,NA,NA
+5,6,Enwezor,NA,NA,NA,NA,NA,NA,NA,NA
+5,6,Iain,NA,NA,NA,NA,NA,NA,NA,NA
+5,6,Jordan,NA,NA,NA,NA,NA,NA,NA,NA
+5,6,Norman,NA,NA,NA,NA,NA,NA,NA,NA
+5,7,Diana,NA,NA,NA,NA,IN,NA,NA,NA
+5,7,Claire,NA,NA,NA,NA,NA,NA,NA,NA
+5,7,Enwezor,NA,NA,NA,NA,NA,NA,NA,NA
+5,7,Iain,NA,NA,NA,NA,NA,NA,NA,NA
+5,7,Jordan,NA,NA,NA,NA,NA,NA,NA,NA
+5,7,Norman,NA,NA,NA,NA,NA,NA,NA,NA
+5,8,Diana,NA,NA,NA,NA,IN,NA,NA,NA
+5,8,Claire,NA,NA,NA,NA,NA,NA,NA,NA
+5,8,Enwezor,NA,NA,NA,NA,NA,NA,NA,NA
+5,8,Iain,NA,NA,NA,NA,NA,NA,NA,NA
+5,8,Jordan,NA,NA,NA,NA,NA,NA,NA,NA
+5,8,Kate,NA,NA,NA,NA,NA,NA,NA,NA
+5,8,Norman,NA,NA,NA,NA,NA,NA,NA,NA
+5,9,Diana,NA,NA,NA,NA,IN,NA,NA,NA
+5,9,Claire,NA,NA,NA,NA,NA,NA,NA,NA
+5,9,Enwezor,NA,NA,NA,NA,NA,NA,NA,NA
+5,9,Iain,NA,NA,NA,NA,NA,NA,NA,NA
+5,9,Jordan,NA,NA,NA,NA,NA,NA,NA,NA
+5,9,Kate,NA,NA,NA,NA,NA,NA,NA,NA
+5,9,Martha,NA,NA,NA,NA,NA,NA,NA,NA
+5,9,Norman,NA,NA,NA,NA,NA,NA,NA,NA
+5,10,Diana,NA,NA,NA,NA,IN,NA,NA,NA
+5,10,Chetna,NA,NA,NA,NA,NA,NA,NA,NA
+5,10,Claire,NA,NA,NA,NA,NA,NA,NA,NA
+5,10,Enwezor,NA,NA,NA,NA,NA,NA,NA,NA
+5,10,Iain,NA,NA,NA,NA,NA,NA,NA,NA
+5,10,Jordan,NA,NA,NA,NA,NA,NA,NA,NA
+5,10,Kate,NA,NA,NA,NA,NA,NA,NA,NA
+5,10,Martha,NA,NA,NA,NA,NA,NA,NA,NA
+5,10,Norman,NA,NA,NA,NA,NA,NA,NA,NA
+6,2,Stu,NA,NA,NA,NA,NA,NA,NA,NA
+6,3,Marie,NA,NA,NA,NA,NA,NA,NA,NA
+6,3,Stu,NA,NA,NA,NA,NA,NA,NA,NA
+6,4,Dorret,NA,NA,NA,NA,NA,NA,NA,NA
+6,4,Marie,NA,NA,NA,NA,NA,NA,NA,NA
+6,4,Stu,NA,NA,NA,NA,NA,NA,NA,NA
+6,5,Dorret,NA,NA,NA,NA,NA,NA,NA,NA
+6,5,Marie,NA,NA,NA,NA,NA,NA,NA,NA
+6,5,Sandy,NA,NA,NA,NA,NA,NA,NA,NA
+6,5,Stu,NA,NA,NA,NA,NA,NA,NA,NA
+6,6,Dorret,NA,NA,NA,NA,NA,NA,NA,NA
+6,6,Marie,NA,NA,NA,NA,NA,NA,NA,NA
+6,6,Sandy,NA,NA,NA,NA,NA,NA,NA,NA
+6,6,Stu,NA,NA,NA,NA,NA,NA,NA,NA
+6,6,Ugnė,NA,NA,NA,NA,NA,NA,NA,NA
+6,7,Alvin,NA,NA,NA,NA,NA,NA,NA,NA
+6,7,Dorret,NA,NA,NA,NA,NA,NA,NA,NA
+6,7,Marie,NA,NA,NA,NA,NA,NA,NA,NA
+6,7,Sandy,NA,NA,NA,NA,NA,NA,NA,NA
+6,7,Stu,NA,NA,NA,NA,NA,NA,NA,NA
+6,7,Ugnė,NA,NA,NA,NA,NA,NA,NA,NA
+6,8,Alvin,NA,NA,NA,NA,NA,NA,NA,NA
+6,8,Dorret,NA,NA,NA,NA,NA,NA,NA,NA
+6,8,Marie,NA,NA,NA,NA,NA,NA,NA,NA
+6,8,Mat,NA,NA,NA,NA,NA,NA,NA,NA
+6,8,Sandy,NA,NA,NA,NA,NA,NA,NA,NA
+6,8,Stu,NA,NA,NA,NA,NA,NA,NA,NA
+6,8,Ugnė,NA,NA,NA,NA,NA,NA,NA,NA
+6,9,Alvin,NA,NA,NA,NA,NA,NA,NA,NA
+6,9,Dorret,NA,NA,NA,NA,NA,NA,NA,NA
+6,9,Marie,NA,NA,NA,NA,NA,NA,NA,NA
+6,9,Mat,NA,NA,NA,NA,NA,NA,NA,NA
+6,9,Paul,NA,NA,NA,NA,NA,NA,NA,NA
+6,9,Sandy,NA,NA,NA,NA,NA,NA,NA,NA
+6,9,Stu,NA,NA,NA,NA,NA,NA,NA,NA
+6,9,Ugnė,NA,NA,NA,NA,NA,NA,NA,NA
+6,10,Alvin,NA,NA,NA,NA,NA,NA,NA,NA
+6,10,Dorret,NA,NA,NA,NA,NA,NA,NA,NA
+6,10,Flora,NA,NA,NA,NA,NA,NA,NA,NA
+6,10,Marie,NA,NA,NA,NA,NA,NA,NA,NA
+6,10,Mat,NA,NA,NA,NA,NA,NA,NA,NA
+6,10,Paul,NA,NA,NA,NA,NA,NA,NA,NA
+6,10,Sandy,NA,NA,NA,NA,NA,NA,NA,NA
+6,10,Stu,NA,NA,NA,NA,NA,NA,NA,NA
+6,10,Ugnė,NA,NA,NA,NA,NA,NA,NA,NA
+7,2,Lee,NA,NA,NA,NA,NA,NA,NA,NA
+7,3,Lee,NA,NA,NA,NA,NA,NA,NA,NA
+7,3,Louise,NA,NA,NA,NA,NA,NA,NA,NA
+7,4,Lee,NA,NA,NA,NA,NA,NA,NA,NA
+7,4,Louise,NA,NA,NA,NA,NA,NA,NA,NA
+7,4,Michael,NA,NA,NA,NA,NA,NA,NA,NA
+7,5,Kate,NA,NA,NA,NA,NA,NA,NA,NA
+7,5,Lee,NA,NA,NA,NA,NA,NA,NA,NA
+7,5,Louise,NA,NA,NA,NA,NA,NA,NA,NA
+7,5,Michael,NA,NA,NA,NA,NA,NA,NA,NA
+7,6,Kate,NA,NA,NA,NA,NA,NA,NA,NA
+7,6,Lee,NA,NA,NA,NA,NA,NA,NA,NA
+7,6,Louise,NA,NA,NA,NA,NA,NA,NA,NA
+7,6,Michael,NA,NA,NA,NA,NA,NA,NA,NA
+7,6,Val,NA,NA,NA,NA,NA,NA,NA,NA
+7,7,Kate,NA,NA,NA,NA,NA,NA,NA,NA
+7,7,Lee,NA,NA,NA,NA,NA,NA,NA,NA
+7,7,Louise,NA,NA,NA,NA,NA,NA,NA,NA
+7,7,Michael,NA,NA,NA,NA,NA,NA,NA,NA
+7,7,Rav,NA,NA,NA,NA,NA,NA,NA,NA
+7,7,Val,NA,NA,NA,NA,NA,NA,NA,NA
+7,8,Kate,NA,NA,NA,NA,NA,NA,NA,NA
+7,8,Lee,NA,NA,NA,NA,NA,NA,NA,NA
+7,8,Louise,NA,NA,NA,NA,NA,NA,NA,NA
+7,8,Michael,NA,NA,NA,NA,NA,NA,NA,NA
+7,8,Rav,NA,NA,NA,NA,NA,NA,NA,NA
+7,8,Tom,NA,NA,NA,NA,NA,NA,NA,NA
+7,8,Val,NA,NA,NA,NA,NA,NA,NA,NA
+7,9,Benjamina,NA,NA,NA,NA,NA,NA,NA,NA
+7,9,Kate,NA,NA,NA,NA,NA,NA,NA,NA
+7,9,Lee,NA,NA,NA,NA,NA,NA,NA,NA
+7,9,Louise,NA,NA,NA,NA,NA,NA,NA,NA
+7,9,Michael,NA,NA,NA,NA,NA,NA,NA,NA
+7,9,Rav,NA,NA,NA,NA,NA,NA,NA,NA
+7,9,Tom,NA,NA,NA,NA,NA,NA,NA,NA
+7,9,Val,NA,NA,NA,NA,NA,NA,NA,NA
+7,10,Benjamina,NA,NA,NA,NA,NA,NA,NA,NA
+7,10,Kate,NA,NA,NA,NA,NA,NA,NA,NA
+7,10,Lee,NA,NA,NA,NA,NA,NA,NA,NA
+7,10,Louise,NA,NA,NA,NA,NA,NA,NA,NA
+7,10,Michael,NA,NA,NA,NA,NA,NA,NA,NA
+7,10,Rav,NA,NA,NA,NA,NA,NA,NA,NA
+7,10,Selasi,NA,NA,NA,NA,NA,NA,NA,NA
+7,10,Tom,NA,NA,NA,NA,NA,NA,NA,NA
+7,10,Val,NA,NA,NA,NA,NA,NA,NA,NA
+8,2,Peter,NA,NA,NA,NA,NA,NA,NA,NA
+8,3,Chris,NA,NA,NA,NA,NA,NA,NA,NA
+8,3,Peter,NA,NA,NA,NA,NA,NA,NA,NA
+8,4,Chris,NA,NA,NA,NA,NA,NA,NA,NA
+8,4,Flo,NA,NA,NA,NA,NA,NA,NA,NA
+8,4,Peter,NA,NA,NA,NA,NA,NA,NA,NA
+8,5,Chris,NA,NA,NA,NA,NA,NA,NA,NA
+8,5,Flo,NA,NA,NA,NA,NA,NA,NA,NA
+8,5,Peter,NA,NA,NA,NA,NA,NA,NA,NA
+8,5,Tom,NA,NA,NA,NA,NA,NA,NA,NA
+8,6,Chris,NA,NA,NA,NA,NA,NA,NA,NA
+8,6,Flo,NA,NA,NA,NA,NA,NA,NA,NA
+8,6,James,NA,NA,NA,NA,NA,NA,NA,NA
+8,6,Peter,NA,NA,NA,NA,NA,NA,NA,NA
+8,6,Tom,NA,NA,NA,NA,NA,NA,NA,NA
+8,7,Chris,NA,NA,NA,NA,NA,NA,NA,NA
+8,7,Flo,NA,NA,NA,NA,NA,NA,NA,NA
+8,7,James,NA,NA,NA,NA,NA,NA,NA,NA
+8,7,Julia,NA,NA,NA,NA,NA,NA,NA,NA
+8,7,Peter,NA,NA,NA,NA,NA,NA,NA,NA
+8,7,Tom,NA,NA,NA,NA,NA,NA,NA,NA
+8,8,Chris,NA,NA,NA,NA,NA,NA,NA,NA
+8,8,Flo,NA,NA,NA,NA,NA,NA,NA,NA
+8,8,James,NA,NA,NA,NA,NA,NA,NA,NA
+8,8,Julia,NA,NA,NA,NA,NA,NA,NA,NA
+8,8,Peter,NA,NA,NA,NA,NA,NA,NA,NA
+8,8,Tom,NA,NA,NA,NA,NA,NA,NA,NA
+8,8,Yan,NA,NA,NA,NA,NA,NA,NA,NA
+8,9,Chris,NA,NA,NA,NA,NA,NA,NA,NA
+8,9,Flo,NA,NA,NA,NA,NA,NA,NA,NA
+8,9,James,NA,NA,NA,NA,NA,NA,NA,NA
+8,9,Julia,NA,NA,NA,NA,NA,NA,NA,NA
+8,9,Liam,NA,NA,NA,NA,NA,NA,NA,NA
+8,9,Peter,NA,NA,NA,NA,NA,NA,NA,NA
+8,9,Tom,NA,NA,NA,NA,NA,NA,NA,NA
+8,9,Yan,NA,NA,NA,NA,NA,NA,NA,NA
+8,10,Chris,NA,NA,NA,NA,NA,NA,NA,NA
+8,10,Flo,NA,NA,NA,NA,NA,NA,NA,NA
+8,10,James,NA,NA,NA,NA,NA,NA,NA,NA
+8,10,Julia,NA,NA,NA,NA,NA,NA,NA,NA
+8,10,Liam,NA,NA,NA,NA,NA,NA,NA,NA
+8,10,Peter,NA,NA,NA,NA,NA,NA,NA,NA
+8,10,Stacey,NA,NA,NA,NA,NA,NA,NA,NA
+8,10,Tom,NA,NA,NA,NA,NA,NA,NA,NA
+8,10,Yan,NA,NA,NA,NA,NA,NA,NA,NA
+9,1,Antony,NA,NA,NA,12,IN,NA,NA,NA
+9,1,Briony,NA,NA,NA,2,IN,NA,NA,NA
+9,1,Dan,NA,NA,NA,4,IN,NA,NA,NA
+9,1,Jon,NA,NA,NA,5,IN,NA,NA,NA
+9,1,Karen,NA,NA,NA,6,IN,NA,NA,NA
+9,1,Kim-Joy,NA,NA,NA,10,IN,NA,NA,NA
+9,1,Luke,NA,NA,NA,8,IN,NA,NA,NA
+9,1,Rahul,NA,NA,NA,7,IN,NA,NA,NA
+9,1,Ruby,NA,NA,NA,1,IN,NA,NA,NA
+9,1,Terry,NA,NA,NA,9,IN,NA,NA,NA
+9,1,Imelda,NA,NA,NA,11,OUT,NA,NA,NA
+9,1,Manon,NA,NA,NA,3,STAR BAKER,NA,NA,NA
+9,2,Antony,NA,NA,NA,9,IN,NA,NA,NA
+9,2,Briony,NA,NA,NA,5,IN,NA,NA,NA
+9,2,Dan,NA,NA,NA,3,IN,NA,NA,NA
+9,2,Jon,NA,NA,NA,1,IN,NA,NA,NA
+9,2,Karen,NA,NA,NA,11,IN,NA,NA,NA
+9,2,Kim-Joy,NA,NA,NA,4,IN,NA,NA,NA
+9,2,Manon,NA,NA,NA,6,IN,NA,NA,NA
+9,2,Ruby,NA,NA,NA,10,IN,NA,NA,NA
+9,2,Terry,NA,NA,NA,8,IN,NA,NA,NA
+9,2,Luke,NA,NA,NA,7,OUT,NA,NA,NA
+9,2,Rahul,NA,NA,NA,2,STAR BAKER,NA,NA,NA
+9,2,Imelda,NA,NA,NA,NA,NA,NA,NA,NA
+9,3,Briony,NA,NA,NA,9,IN,NA,NA,NA
+9,3,Dan,NA,NA,NA,6,IN,NA,NA,NA
+9,3,Jon,NA,NA,NA,2,IN,NA,NA,NA
+9,3,Karen,NA,NA,NA,5,IN,NA,NA,NA
+9,3,Kim-Joy,NA,NA,NA,10,IN,NA,NA,NA
+9,3,Manon,NA,NA,NA,3,IN,NA,NA,NA
+9,3,Ruby,NA,NA,NA,7,IN,NA,NA,NA
+9,3,Terry,NA,NA,NA,1,IN,NA,NA,NA
+9,3,Antony,NA,NA,NA,8,OUT,NA,NA,NA
+9,3,Rahul,NA,NA,NA,4,STAR BAKER,NA,NA,NA
+9,3,Imelda,NA,NA,NA,NA,NA,NA,NA,NA
+9,3,Luke,NA,NA,NA,NA,NA,NA,NA,NA
+9,4,Terry,NA,NA,NA,NA,[a],NA,NA,NA
+9,4,Briony,NA,NA,NA,5,IN,NA,NA,NA
+9,4,Jon,NA,NA,NA,3,IN,NA,NA,NA
+9,4,Karen,NA,NA,NA,7,IN,NA,NA,NA
+9,4,Kim-Joy,NA,NA,NA,6,IN,NA,NA,NA
+9,4,Manon,NA,NA,NA,8,IN,NA,NA,NA
+9,4,Rahul,NA,NA,NA,4,IN,NA,NA,NA
+9,4,Ruby,NA,NA,NA,2,IN,NA,NA,NA
+9,4,Dan,NA,NA,NA,1,STAR BAKER,NA,NA,NA
+9,4,Antony,NA,NA,NA,NA,NA,NA,NA,NA
+9,4,Imelda,NA,NA,NA,NA,NA,NA,NA,NA
+9,4,Luke,NA,NA,NA,NA,NA,NA,NA,NA
+9,5,Briony,NA,NA,NA,6,IN,NA,NA,NA
+9,5,Dan,NA,NA,NA,2,IN,NA,NA,NA
+9,5,Jon,NA,NA,NA,7,IN,NA,NA,NA
+9,5,Manon,NA,NA,NA,5,IN,NA,NA,NA
+9,5,Rahul,NA,NA,NA,3,IN,NA,NA,NA
+9,5,Ruby,NA,NA,NA,1,IN,NA,NA,NA
+9,5,Karen,NA,NA,NA,9,OUT,NA,NA,NA
+9,5,Terry,NA,NA,NA,8,OUT,NA,NA,NA
+9,5,Kim-Joy,NA,NA,NA,4,STAR BAKER,NA,NA,NA
+9,5,Antony,NA,NA,NA,NA,NA,NA,NA,NA
+9,5,Imelda,NA,NA,NA,NA,NA,NA,NA,NA
+9,5,Luke,NA,NA,NA,NA,NA,NA,NA,NA
+9,6,Jon,NA,NA,NA,2,IN,NA,NA,NA
+9,6,Kim-Joy,NA,NA,NA,5,IN,NA,NA,NA
+9,6,Manon,NA,NA,NA,4,IN,NA,NA,NA
+9,6,Rahul,NA,NA,NA,3,IN,NA,NA,NA
+9,6,Ruby,NA,NA,NA,7,IN,NA,NA,NA
+9,6,Dan,NA,NA,NA,6,OUT,NA,NA,NA
+9,6,Briony,NA,NA,NA,1,STAR BAKER,NA,NA,NA
+9,6,Antony,NA,NA,NA,NA,NA,NA,NA,NA
+9,6,Imelda,NA,NA,NA,NA,NA,NA,NA,NA
+9,6,Karen,NA,NA,NA,NA,NA,NA,NA,NA
+9,6,Luke,NA,NA,NA,NA,NA,NA,NA,NA
+9,6,Terry,NA,NA,NA,NA,NA,NA,NA,NA
+9,7,Briony,NA,NA,NA,5,IN,NA,NA,NA
+9,7,Manon,NA,NA,NA,2,IN,NA,NA,NA
+9,7,Rahul,NA,NA,NA,1,IN,NA,NA,NA
+9,7,Ruby,NA,NA,NA,3,IN,NA,NA,NA
+9,7,Jon,NA,NA,NA,4,OUT,NA,NA,NA
+9,7,Kim-Joy,NA,NA,NA,6,STAR BAKER,NA,NA,NA
+9,7,Antony,NA,NA,NA,NA,NA,NA,NA,NA
+9,7,Dan,NA,NA,NA,NA,NA,NA,NA,NA
+9,7,Imelda,NA,NA,NA,NA,NA,NA,NA,NA
+9,7,Karen,NA,NA,NA,NA,NA,NA,NA,NA
+9,7,Luke,NA,NA,NA,NA,NA,NA,NA,NA
+9,7,Terry,NA,NA,NA,NA,NA,NA,NA,NA
+9,8,Briony,NA,NA,NA,1,IN,NA,NA,NA
+9,8,Kim-Joy,NA,NA,NA,2,IN,NA,NA,NA
+9,8,Rahul,NA,NA,NA,5,IN,NA,NA,NA
+9,8,Manon,NA,NA,NA,4,OUT,NA,NA,NA
+9,8,Ruby,NA,NA,NA,3,STAR BAKER,NA,NA,NA
+9,8,Antony,NA,NA,NA,NA,NA,NA,NA,NA
+9,8,Dan,NA,NA,NA,NA,NA,NA,NA,NA
+9,8,Imelda,NA,NA,NA,NA,NA,NA,NA,NA
+9,8,Jon,NA,NA,NA,NA,NA,NA,NA,NA
+9,8,Karen,NA,NA,NA,NA,NA,NA,NA,NA
+9,8,Luke,NA,NA,NA,NA,NA,NA,NA,NA
+9,8,Terry,NA,NA,NA,NA,NA,NA,NA,NA
+9,9,Kim-Joy,NA,NA,NA,2,IN,NA,NA,NA
+9,9,Rahul,NA,NA,NA,4,IN,NA,NA,NA
+9,9,Briony,NA,NA,NA,3,OUT,NA,NA,NA
+9,9,Ruby,NA,NA,NA,1,STAR BAKER,NA,NA,NA
+9,9,Antony,NA,NA,NA,NA,NA,NA,NA,NA
+9,9,Dan,NA,NA,NA,NA,NA,NA,NA,NA
+9,9,Imelda,NA,NA,NA,NA,NA,NA,NA,NA
+9,9,Jon,NA,NA,NA,NA,NA,NA,NA,NA
+9,9,Karen,NA,NA,NA,NA,NA,NA,NA,NA
+9,9,Luke,NA,NA,NA,NA,NA,NA,NA,NA
+9,9,Manon,NA,NA,NA,NA,NA,NA,NA,NA
+9,9,Terry,NA,NA,NA,NA,NA,NA,NA,NA
+9,10,Kim-Joy,NA,NA,NA,1,Runner-up,NA,NA,NA
+9,10,Ruby,NA,NA,NA,3,Runner-up,NA,NA,NA
+9,10,Rahul,NA,NA,NA,2,WINNER,NA,NA,NA
+9,10,Antony,NA,NA,NA,NA,NA,NA,NA,NA
+9,10,Briony,NA,NA,NA,NA,NA,NA,NA,NA
+9,10,Dan,NA,NA,NA,NA,NA,NA,NA,NA
+9,10,Imelda,NA,NA,NA,NA,NA,NA,NA,NA
+9,10,Jon,NA,NA,NA,NA,NA,NA,NA,NA
+9,10,Karen,NA,NA,NA,NA,NA,NA,NA,NA
+9,10,Luke,NA,NA,NA,NA,NA,NA,NA,NA
+9,10,Manon,NA,NA,NA,NA,NA,NA,NA,NA
+9,10,Terry,NA,NA,NA,NA,NA,NA,NA,NA
+10,1,Alice,NA,NA,NA,5,IN,NA,NA,NA
+10,1,Amelia,NA,NA,NA,4,IN,NA,NA,NA
+10,1,David,NA,NA,NA,10,IN,NA,NA,NA
+10,1,Helena,NA,NA,NA,12,IN,NA,NA,NA
+10,1,Henry,NA,NA,NA,1,IN,NA,NA,NA
+10,1,Jamie,NA,NA,NA,13,IN,NA,NA,NA
+10,1,Michael,NA,NA,NA,11,IN,NA,NA,NA
+10,1,Phil,NA,NA,NA,8,IN,NA,NA,NA
+10,1,Priya,NA,NA,NA,7,IN,NA,NA,NA
+10,1,Rosie,NA,NA,NA,2,IN,NA,NA,NA
+10,1,Steph,NA,NA,NA,3,IN,NA,NA,NA
+10,1,Dan,NA,NA,NA,9,OUT,NA,NA,NA
+10,1,Michelle,NA,NA,NA,6,STAR BAKER,NA,NA,NA
+10,2,Amelia,NA,NA,NA,9,IN,NA,NA,NA
+10,2,David,NA,NA,NA,2,IN,NA,NA,NA
+10,2,Helena,NA,NA,NA,12,IN,NA,NA,NA
+10,2,Henry,NA,NA,NA,6,IN,NA,NA,NA
+10,2,Michael,NA,NA,NA,4,IN,NA,NA,NA
+10,2,Michelle,NA,NA,NA,8,IN,NA,NA,NA
+10,2,Phil,NA,NA,NA,3,IN,NA,NA,NA
+10,2,Priya,NA,NA,NA,7,IN,NA,NA,NA
+10,2,Rosie,NA,NA,NA,5,IN,NA,NA,NA
+10,2,Steph,NA,NA,NA,10,IN,NA,NA,NA
+10,2,Jamie,NA,NA,NA,11,OUT,NA,NA,NA
+10,2,Alice,NA,NA,NA,1,STAR BAKER,NA,NA,NA
+10,2,Dan,NA,NA,NA,NA,NA,NA,NA,NA
+10,3,Alice,NA,NA,NA,7,IN,NA,NA,NA
+10,3,David,NA,NA,NA,2,IN,NA,NA,NA
+10,3,Helena,NA,NA,NA,8,IN,NA,NA,NA
+10,3,Henry,NA,NA,NA,1,IN,NA,NA,NA
+10,3,Michelle,NA,NA,NA,5,IN,NA,NA,NA
+10,3,Phil,NA,NA,NA,10,IN,NA,NA,NA
+10,3,Priya,NA,NA,NA,4,IN,NA,NA,NA
+10,3,Rosie,NA,NA,NA,9,IN,NA,NA,NA
+10,3,Steph,NA,NA,NA,3,IN,NA,NA,NA
+10,3,Amelia,NA,NA,NA,11,OUT,NA,NA,NA
+10,3,Michael,NA,NA,NA,6,STAR BAKER,NA,NA,NA
+10,3,Dan,NA,NA,NA,NA,NA,NA,NA,NA
+10,3,Jamie,NA,NA,NA,NA,NA,NA,NA,NA
+10,4,Alice,NA,NA,NA,8,IN,NA,NA,NA
+10,4,David,NA,NA,NA,2,IN,NA,NA,NA
+10,4,Helena,NA,NA,NA,9,IN,NA,NA,NA
+10,4,Henry,NA,NA,NA,3,IN,NA,NA,NA
+10,4,Michael,NA,NA,NA,7,IN,NA,NA,NA
+10,4,Michelle,NA,NA,NA,5,IN,NA,NA,NA
+10,4,Priya,NA,NA,NA,10,IN,NA,NA,NA
+10,4,Rosie,NA,NA,NA,4,IN,NA,NA,NA
+10,4,Phil,NA,NA,NA,6,OUT,NA,NA,NA
+10,4,Steph,NA,NA,NA,1,STAR BAKER,NA,NA,NA
+10,4,Amelia,NA,NA,NA,NA,NA,NA,NA,NA
+10,4,Dan,NA,NA,NA,NA,NA,NA,NA,NA
+10,4,Jamie,NA,NA,NA,NA,NA,NA,NA,NA
+10,5,Alice,NA,NA,NA,6,IN,NA,NA,NA
+10,5,David,NA,NA,NA,9,IN,NA,NA,NA
+10,5,Henry,NA,NA,NA,3,IN,NA,NA,NA
+10,5,Michael,NA,NA,NA,8,IN,NA,NA,NA
+10,5,Priya,NA,NA,NA,2,IN,NA,NA,NA
+10,5,Rosie,NA,NA,NA,5,IN,NA,NA,NA
+10,5,Helena,NA,NA,NA,1,OUT,NA,NA,NA
+10,5,Michelle,NA,NA,NA,7,OUT,NA,NA,NA
+10,5,Steph,NA,NA,NA,4,STAR BAKER,NA,NA,NA
+10,5,Amelia,NA,NA,NA,NA,NA,NA,NA,NA
+10,5,Dan,NA,NA,NA,NA,NA,NA,NA,NA
+10,5,Jamie,NA,NA,NA,NA,NA,NA,NA,NA
+10,5,Phil,NA,NA,NA,NA,NA,NA,NA,NA
+10,6,Alice,NA,NA,NA,1,IN,NA,NA,NA
+10,6,David,NA,NA,NA,2,IN,NA,NA,NA
+10,6,Henry,NA,NA,NA,4,IN,NA,NA,NA
+10,6,Michael,NA,NA,NA,6,IN,NA,NA,NA
+10,6,Rosie,NA,NA,NA,5,IN,NA,NA,NA
+10,6,Priya,NA,NA,NA,7,OUT,NA,NA,NA
+10,6,Steph,NA,NA,NA,3,STAR BAKER,NA,NA,NA
+10,6,Amelia,NA,NA,NA,NA,NA,NA,NA,NA
+10,6,Dan,NA,NA,NA,NA,NA,NA,NA,NA
+10,6,Helena,NA,NA,NA,NA,NA,NA,NA,NA
+10,6,Jamie,NA,NA,NA,NA,NA,NA,NA,NA
+10,6,Michelle,NA,NA,NA,NA,NA,NA,NA,NA
+10,6,Phil,NA,NA,NA,NA,NA,NA,NA,NA
+10,7,Alice,NA,NA,NA,6,IN,NA,NA,NA
+10,7,David,NA,NA,NA,2,IN,NA,NA,NA
+10,7,Rosie,NA,NA,NA,1,IN,NA,NA,NA
+10,7,Steph,NA,NA,NA,4,IN,NA,NA,NA
+10,7,Michael,NA,NA,NA,5,OUT,NA,NA,NA
+10,7,Henry,NA,NA,NA,3,STAR BAKER,NA,NA,NA
+10,7,Amelia,NA,NA,NA,NA,NA,NA,NA,NA
+10,7,Dan,NA,NA,NA,NA,NA,NA,NA,NA
+10,7,Helena,NA,NA,NA,NA,NA,NA,NA,NA
+10,7,Jamie,NA,NA,NA,NA,NA,NA,NA,NA
+10,7,Michelle,NA,NA,NA,NA,NA,NA,NA,NA
+10,7,Phil,NA,NA,NA,NA,NA,NA,NA,NA
+10,7,Priya,NA,NA,NA,NA,NA,NA,NA,NA
+10,8,Alice,NA,NA,NA,3,IN,NA,NA,NA
+10,8,David,NA,NA,NA,1,IN,NA,NA,NA
+10,8,Rosie,NA,NA,NA,2,IN,NA,NA,NA
+10,8,Henry,NA,NA,NA,5,OUT,NA,NA,NA
+10,8,Steph,NA,NA,NA,4,STAR BAKER,NA,NA,NA
+10,8,Amelia,NA,NA,NA,NA,NA,NA,NA,NA
+10,8,Dan,NA,NA,NA,NA,NA,NA,NA,NA
+10,8,Helena,NA,NA,NA,NA,NA,NA,NA,NA
+10,8,Jamie,NA,NA,NA,NA,NA,NA,NA,NA
+10,8,Michael,NA,NA,NA,NA,NA,NA,NA,NA
+10,8,Michelle,NA,NA,NA,NA,NA,NA,NA,NA
+10,8,Phil,NA,NA,NA,NA,NA,NA,NA,NA
+10,8,Priya,NA,NA,NA,NA,NA,NA,NA,NA
+10,9,David,NA,NA,NA,2,IN,NA,NA,NA
+10,9,Steph,NA,NA,NA,3,IN,NA,NA,NA
+10,9,Rosie,NA,NA,NA,1,OUT,NA,NA,NA
+10,9,Alice,NA,NA,NA,4,STAR BAKER,NA,NA,NA
+10,9,Amelia,NA,NA,NA,NA,NA,NA,NA,NA
+10,9,Dan,NA,NA,NA,NA,NA,NA,NA,NA
+10,9,Helena,NA,NA,NA,NA,NA,NA,NA,NA
+10,9,Henry,NA,NA,NA,NA,NA,NA,NA,NA
+10,9,Jamie,NA,NA,NA,NA,NA,NA,NA,NA
+10,9,Michael,NA,NA,NA,NA,NA,NA,NA,NA
+10,9,Michelle,NA,NA,NA,NA,NA,NA,NA,NA
+10,9,Phil,NA,NA,NA,NA,NA,NA,NA,NA
+10,9,Priya,NA,NA,NA,NA,NA,NA,NA,NA
+10,10,Alice,NA,NA,NA,2,Runner-up,NA,NA,NA
+10,10,Steph,NA,NA,NA,3,Runner-up,NA,NA,NA
+10,10,David,NA,NA,NA,1,WINNER,NA,NA,NA
+10,10,Amelia,NA,NA,NA,NA,NA,NA,NA,NA
+10,10,Dan,NA,NA,NA,NA,NA,NA,NA,NA
+10,10,Helena,NA,NA,NA,NA,NA,NA,NA,NA
+10,10,Henry,NA,NA,NA,NA,NA,NA,NA,NA
+10,10,Jamie,NA,NA,NA,NA,NA,NA,NA,NA
+10,10,Michael,NA,NA,NA,NA,NA,NA,NA,NA
+10,10,Michelle,NA,NA,NA,NA,NA,NA,NA,NA
+10,10,Phil,NA,NA,NA,NA,NA,NA,NA,NA
+10,10,Priya,NA,NA,NA,NA,NA,NA,NA,NA
+10,10,Rosie,NA,NA,NA,NA,NA,NA,NA,NA

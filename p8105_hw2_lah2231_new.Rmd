@@ -158,7 +158,7 @@ nrow(unmatched_bakers_results)
 ```
 The number of unmatched bakers in bakes but not in bakers is `r nrow(unmatched_bakers)`. The number of unmatched bakers in bakes but not in results is `r nrow(unmatched_bakers_results)`.
 
-
+#Merging
 ```{r}
 # First merging "Baker Name" column from "bakers" dataset on "baker" in "bakes" dataset which only has first names and "Series"
 bakers <- bakers |>
@@ -172,12 +172,13 @@ head(bakes_bakers)
 
 #Second merge of series in results with Series in bakes_bakers, episode in results with Episode in bakes_bakers, baker in results with Baker in bakes_bakers
 final_dataset <- bakes_bakers |>
-  left_join(results, by = c("Series" = "series", "Episode" = "episode", "Baker" = "baker"))
+  right_join(results, by = c("Series" = "series", "Episode" = "episode", "Baker" = "baker"))
 
 head(final_dataset)
+#View(final_dataset)
 ```
 
-
+#Reorganizing
 ```{r}
 #Reorgnaizing so important columns come first
 
@@ -188,8 +189,9 @@ head(final_dataset)
 
 write_csv(final_dataset, "data/final_dataset.csv")
 ```
-Process description: After loading I inspected the datasets, I deleted unnecessary rows and checked for missing or unmatched entries using anti_join. To merge the datasets, I first extracted the first names from Baker Name in the bakers dataset to match the Baker column in the bakes dataset. I then merged bakes_bakers with results by matching on Series, Episode, and Baker. After reordering key variables which I found to be more impirtant than additional facts about the bakers. A question that remains for me is why there a re so many missing results, especially for the "technical" challenges. I exported the final cleaned dataset. This dataset includes all relevant information on bakers, their bakes and their performance across all episodes.
+Process description: After loading I inspected the datasets, I deleted unnecessary rows and checked for missing or unmatched entries using anti_join. To merge the datasets, I first extracted the first names from Baker Name in the bakers dataset to match the Baker column in the bakes dataset. I then merged bakes_bakers with results by matching on Series, Episode, and Baker. After some exploring and seeing that there is no series 9 and ten in bakers i did a right join. After reordering key variables which I found to be more impirtant than additional facts about the bakers. A question that remains for me is why there a re so many missing results, especially for the "technical" challenges. I exported the final cleaned dataset. This dataset includes all relevant information on bakers, their bakes and their performance across all episodes.
 
+#Star Bakers
 ```{r}
 # "STAR BAKER" or "WINNER" for seasons 5 - 10
 star_bakers_winners <- final_dataset |>
@@ -200,9 +202,19 @@ star_bakers_winners <- final_dataset |>
 head(star_bakers_winners)
 ```
 
-In many cases the person that was star baker several times and especially towards the end ended up winning. It is not always the person with the most star baker awards though (Half of the times we looked at the person with the most star baker awards won in the end)
+
+```{r}
+predictable_bakers <- star_bakers_winners |>
+  count(Baker, name = "star_baker_count") |>
+  arrange(desc(star_baker_count))
+
+predictable_bakers
+```
 
 
+In many cases the person that was star baker several times and especially towards the end ended up winning. It is not always the person with the most star baker awards though.
+
+# viewers
 ```{r}
 # Viewer dataset
 viewers <- read_csv("data/viewers.csv")
